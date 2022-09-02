@@ -1,0 +1,24 @@
+---
+- mystudent:
+  - name: anil
+    phone: 7878787878
+    address:
+      doorno: 534
+      street: 2
+      pincode: 252522
+
+
+  - name: sunil
+    phone: 7878787878
+    address:
+      doorno: 532
+      street: 1
+      pincode: 255622
+
+
+  - name: venil
+    phone: 7878787878
+    address:
+      doorno: 538
+      street: 4
+      pincode: 253648
