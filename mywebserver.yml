@@ -14,3 +14,15 @@
       name: apache2
       state: started
     when: ansible_os_family =="Debian"
+
+  - name: i want to install webserver on redhat
+    apt:
+      name: apache2
+      state: present
+    when: ansible_os_family =="RedHat"
+
+  - name: i want to start webserver on redhat
+    service:
+      name: apache2
+      state: started
+  when: ansible_os_family =="RedHat"
