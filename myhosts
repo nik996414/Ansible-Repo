@@ -3,14 +3,6 @@
 172.31.21.198
 172.31.30.45
 
-[myapplicationserver]
-172.31.21.188
-172.31.30.145
-
-[mydatabaseserver]
-172.31.21.178
-172.31.30.14
-
 [mywebserver:vars]
 myjavapackonubuntu=apache2
 myjavapackonredhat=httpd
