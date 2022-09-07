@@ -10,7 +10,3 @@
 [mydatabaseserver]
 172.31.21.178
 172.31.30.14
-
-[mydatabaseservers]
-172.31.21.168
-172.31.30.15
