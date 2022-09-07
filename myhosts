@@ -10,3 +10,8 @@
 [mydatabaseserver]
 172.31.21.178
 172.31.30.14
+
+
+[mywebserver.vars]
+mywebpackonubuntu=apache22
+mywebpackonredhat=httpd
