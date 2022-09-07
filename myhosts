@@ -1,8 +1,2 @@
-
-[mywebserver]
 172.31.21.198
 172.31.30.45
-
-[mywebserver:vars]
-myjavapackonubuntu=openjdk-8-jre
-myjavapackonredhat=java-1.8.0-openjdk
