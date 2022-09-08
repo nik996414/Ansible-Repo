@@ -1,2 +1,2 @@
 ---
-javaonredhat: java-1.11.0-openjdk
+javaonubuntu: openjdk-11-jre
