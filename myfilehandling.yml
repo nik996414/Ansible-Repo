@@ -7,3 +7,7 @@
     file:
       path: /home/ubuntu/myfolder
       state: directory
+  - name: i want to copy file from master to node
+    copy: 
+      src: my2ndfile.txt
+      dest: /home/ubuntu/my2ndfile 
