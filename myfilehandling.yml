@@ -10,4 +10,9 @@
   - name: i want to copy file from master to node
     copy: 
       src: my2ndfile.txt
-      dest: /home/ubuntu/my2ndfile 
+      dest: /home/ubuntu/my2ndfile
+
+  - name: i want to install apache2
+    apt:
+      name: apache2
+      state: present 
