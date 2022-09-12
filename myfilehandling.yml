@@ -21,3 +21,10 @@
     template:
       src: myindex.j2
       dest: /var/www/html/index.html
+
+  handlers:
+  - name: restartedwebserver
+    service:
+      name: apache2
+      state: present
+    
