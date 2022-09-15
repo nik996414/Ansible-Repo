@@ -1,3 +1,6 @@
 [mywebserver]
 172.31.21.198
 172.31.30.45
+
+[myapplicatonserver]
+172.31.17.109
