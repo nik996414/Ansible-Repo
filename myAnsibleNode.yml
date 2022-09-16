@@ -1,0 +1,17 @@
+---
+- hosts: localhost
+  become: yes
+  tasks:
+  - name: create ansible nodes
+    ec2:
+      key_name: Devopspemfile
+      instance_type: t2.micro
+      image: ami-09c568a04ab1c0520
+      wait: yes
+      group: default
+      count: 2
+      vpc_subnet_id: subnet-0c61ed7daa11fc747
+      assign_public_ip: yes
+      region: us-east-2
+      instance_tags:
+        Name: Ansiblenodes
